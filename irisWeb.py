@@ -11,13 +11,13 @@ import pickle
 import pandas as pd
 
 #Extrar los archivos pickle (Modelos!!)
-with open('lin_reg.pkl', 'rb') as li:
+with open('https://github.com/JuandaBula/Clasificador/blob/main/lin_reg.pkl/lin_reg.pkl', 'rb') as li:
     lin_reg = pickle.load(li)
 
-with open('log_reg.pkl', 'rb') as lo:
+with open('https://github.com/JuandaBula/Clasificador/blob/main/log_reg.pkl', 'rb') as lo:
     log_reg = pickle.load(lo)
 
-with open('svc_m.pkl', 'rb') as sv:
+with open('https://github.com/JuandaBula/Clasificador/blob/main/svc_m.pkl', 'rb') as sv:
     svc_m = pickle.load(sv)
 
 
