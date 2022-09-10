@@ -11,13 +11,13 @@ import pickle
 import pandas as pd
 
 #Extrar los archivos pickle (Modelos!!)
-with open('C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/lin_reg.pkl', 'rb') as li:
+with open('lin_reg.pkl', 'rb') as li:
     lin_reg = pickle.load(li)
 
-with open('C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/log_reg.pkl', 'rb') as lo:
+with open('log_reg.pkl', 'rb') as lo:
     log_reg = pickle.load(lo)
 
-with open('C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/svc_m.pkl', 'rb') as sv:
+with open('svc_m.pkl', 'rb') as sv:
     svc_m = pickle.load(sv)
 
 
