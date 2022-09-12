@@ -13,13 +13,13 @@ import joblib
 
 #Extrar los archivos pickle (Modelos!!)
 #with open('C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/lin_reg.pkl', 'rb') as li:
-lin_reg = joblib.load("C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/lin_reg.pkl")
+lin_reg = joblib.load("lin_reg.pkl")
 
 #with open('C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/log_reg.pkl', 'rb') as lo:
-log_reg = joblib.load("C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/log_reg.pkl")
+log_reg = joblib.load("log_reg.pkl")
 
 #with open('C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/svc_m.pkl', 'rb') as sv:
-svc_m = joblib.load("C:/Users/jdbul/OneDrive/Escritorio/Python/App_MachineLearning/svc_m.pkl")
+svc_m = joblib.load("svc_m.pkl")
 
 
 #funcion para clasificar las plantas 
